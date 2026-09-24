@@ -1,0 +1,22 @@
+{
+    "name": "NinetyNine.Features.Shop.View",
+    "rootNamespace": "NinetyNine.Features.Shop.UI",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Features.Shop",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Reward",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "NinetyNine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

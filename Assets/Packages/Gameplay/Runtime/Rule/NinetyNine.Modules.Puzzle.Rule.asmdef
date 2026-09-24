@@ -1,0 +1,17 @@
+{
+    "name": "NinetyNine.Modules.Puzzle.Rule",
+    "rootNamespace": "NinetyNine.Modules.Puzzle.Rules",
+    "references": [
+        "NinetyNine.Modules.Puzzle.Board",
+        "NinetyNine.Modules.Puzzle.Move"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

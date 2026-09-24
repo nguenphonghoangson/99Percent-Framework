@@ -1,0 +1,21 @@
+{
+    "name": "NinetyNine.Features.DailyReward.View",
+    "rootNamespace": "NinetyNine.Features.DailyReward.UI",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Features.DailyReward",
+        "NinetyNine.Modules.Reward",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "NinetyNine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

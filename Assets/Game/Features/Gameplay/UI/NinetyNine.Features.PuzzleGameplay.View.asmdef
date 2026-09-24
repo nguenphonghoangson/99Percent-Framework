@@ -1,0 +1,14 @@
+{
+    "name": "NinetyNine.Features.PuzzleGameplay.View",
+    "rootNamespace": "NinetyNine.Features.PuzzleGameplay.UI",
+    "references": ["NinetyNine.Core", "NinetyNine.UI", "NinetyNine.Features.PuzzleGameplay", "NinetyNine.Modules.Economy", "NinetyNine.Modules.Reward", "NinetyNine.Modules.Puzzle", "NinetyNine.Modules.Puzzle.Board", "NinetyNine.Modules.Puzzle.Move", "NinetyNine.Modules.Puzzle.Rule", "NinetyNine.Modules.Puzzle.Objective", "NinetyNine.Modules.Puzzle.Turn", "NinetyNine.Modules.Puzzle.Level", "Unity.TextMeshPro", "UnityEngine.UI", "NinetyNine.Game.Flow"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

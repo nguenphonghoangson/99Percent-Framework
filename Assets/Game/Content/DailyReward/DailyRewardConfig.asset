@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de0c3403b6f5442cb4364649b376d04, type: 3}
+  m_Name: DailyRewardConfig
+  m_EditorClassIdentifier: 
+  days:
+  - items:
+    - kind: 0
+      id: coin
+      amount: 50
+  - items:
+    - kind: 0
+      id: coin
+      amount: 100
+  - items:
+    - kind: 1
+      id: booster_hammer
+      amount: 1
+  - items:
+    - kind: 0
+      id: coin
+      amount: 200
+  - items:
+    - kind: 0
+      id: gem
+      amount: 5
+  - items:
+    - kind: 0
+      id: coin
+      amount: 300
+  - items:
+    - kind: 0
+      id: coin
+      amount: 500
+    - kind: 1
+      id: booster_hammer
+      amount: 2
+  resetStreakOnMiss: 1
+  unlock:
+    kind: 1
+    levelNumber: 2
+    itemId: 

@@ -1,0 +1,46 @@
+{
+    "name": "NinetyNine.Tests.PlayMode",
+    "rootNamespace": "NinetyNine.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "NinetyNine.Core",
+        "NinetyNine.Game",
+        "NinetyNine.Features.Shop.View",
+        "NinetyNine.Features.DailyReward.View",
+        "Unity.TextMeshPro",
+        "NinetyNine.Features.Home",
+        "NinetyNine.UI",
+        "NinetyNine.Persistence.Save",
+        "NinetyNine.Features.PuzzleGameplay",
+        "NinetyNine.Features.PuzzleGameplay.View",
+        "NinetyNine.Modules.Puzzle",
+        "NinetyNine.Modules.Puzzle.Board",
+        "NinetyNine.Modules.Puzzle.Move",
+        "NinetyNine.Modules.Puzzle.Rule",
+        "NinetyNine.Modules.Puzzle.Level",
+        "NinetyNine.Modules.Puzzle.Objective",
+        "NinetyNine.Modules.Puzzle.Turn",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Progression",
+        "UnityEngine.UI",
+        "NinetyNine.Features.Profile",
+        "NinetyNine.Features.Profile.View",
+        "NinetyNine.Modules.Profile",
+        "NinetyNine.Game.Flow",
+        "NinetyNine.Features.Shop"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

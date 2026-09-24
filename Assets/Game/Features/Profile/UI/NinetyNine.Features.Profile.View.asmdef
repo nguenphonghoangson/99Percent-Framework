@@ -1,0 +1,14 @@
+{
+    "name": "NinetyNine.Features.Profile.View",
+    "rootNamespace": "NinetyNine.Features.Profile.UI",
+    "references": ["NinetyNine.Core", "NinetyNine.UI", "NinetyNine.Features.Profile", "NinetyNine.Modules.Economy", "NinetyNine.Modules.Unlock", "NinetyNine.Modules.Profile", "Unity.TextMeshPro", "UnityEngine.UI"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

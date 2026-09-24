@@ -1,0 +1,17 @@
+{
+    "name": "NinetyNine.Modules.Progression",
+    "rootNamespace": "NinetyNine.Modules.Progression",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Persistence.Save"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

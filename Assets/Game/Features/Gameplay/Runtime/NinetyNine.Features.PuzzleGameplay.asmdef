@@ -1,0 +1,28 @@
+{
+    "name": "NinetyNine.Features.PuzzleGameplay",
+    "rootNamespace": "NinetyNine.Features.PuzzleGameplay",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Unlock",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Inventory",
+        "NinetyNine.Modules.Reward",
+        "NinetyNine.Modules.Progression",
+        "NinetyNine.Modules.Puzzle",
+        "NinetyNine.Modules.Puzzle.Board",
+        "NinetyNine.Modules.Puzzle.Move",
+        "NinetyNine.Modules.Puzzle.Rule",
+        "NinetyNine.Modules.Puzzle.Objective",
+        "NinetyNine.Modules.Puzzle.Turn",
+        "NinetyNine.Modules.Puzzle.Level"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

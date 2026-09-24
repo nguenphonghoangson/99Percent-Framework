@@ -1,0 +1,22 @@
+{
+    "name": "NinetyNine.Modules.Puzzle",
+    "rootNamespace": "NinetyNine.Modules.Puzzle",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Puzzle.Board",
+        "NinetyNine.Modules.Puzzle.Move",
+        "NinetyNine.Modules.Puzzle.Rule",
+        "NinetyNine.Modules.Puzzle.Objective",
+        "NinetyNine.Modules.Puzzle.Turn",
+        "NinetyNine.Modules.Puzzle.Level"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

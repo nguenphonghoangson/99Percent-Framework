@@ -1,0 +1,17 @@
+{
+    "name": "NinetyNine.Modules.Economy",
+    "rootNamespace": "NinetyNine.Modules.Economy",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Persistence.Save"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

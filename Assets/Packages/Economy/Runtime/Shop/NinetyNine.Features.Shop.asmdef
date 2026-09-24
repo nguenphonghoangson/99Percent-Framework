@@ -1,0 +1,23 @@
+{
+    "name": "NinetyNine.Features.Shop",
+    "rootNamespace": "NinetyNine.Features.Shop",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Unlock",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Inventory",
+        "NinetyNine.Modules.Reward",
+        "NinetyNine.Modules.Progression",
+        "NinetyNine.Modules.Iap",
+        "NinetyNine.Persistence.Save"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

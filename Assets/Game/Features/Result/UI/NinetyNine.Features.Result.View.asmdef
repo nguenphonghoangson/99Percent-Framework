@@ -1,0 +1,14 @@
+{
+    "name": "NinetyNine.Features.Result.View",
+    "rootNamespace": "NinetyNine.Features.Result",
+    "references": ["NinetyNine.Core", "NinetyNine.UI", "NinetyNine.Features.PuzzleGameplay", "NinetyNine.Modules.Puzzle", "NinetyNine.Modules.Economy", "NinetyNine.Modules.Reward", "Unity.TextMeshPro", "UnityEngine.UI"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

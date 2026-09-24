@@ -1,0 +1,14 @@
+{
+    "name": "NinetyNine.Core.Scene.Unity",
+    "rootNamespace": "NinetyNine.Core",
+    "references": ["NinetyNine.Core"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

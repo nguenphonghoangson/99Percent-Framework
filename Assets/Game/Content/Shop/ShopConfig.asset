@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377593acf89e74f99aeef212768da89f, type: 3}
+  m_Name: ShopConfig
+  m_EditorClassIdentifier: 
+  featureUnlock:
+    kind: 1
+    levelNumber: 3
+    itemId: 
+  products:
+  - id: gold_pack_1
+    section: gold_packs
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gold_pack_1
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 1000
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: gold_pack_2
+    section: gold_packs
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gold_pack_2
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 5000
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: gold_pack_3
+    section: gold_packs
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gold_pack_3
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 10000
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: gold_pack_4
+    section: gold_packs
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gold_pack_4
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 25000
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: gold_pack_5
+    section: gold_packs
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gold_pack_5
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 50000
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: gold_pack_6
+    section: gold_packs
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gold_pack_6
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 100000
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: free_gift
+    section: daily
+    priceKind: 0
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: 
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 100
+    purchaseLimit: 1
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: hammer_x3
+    section: boosters
+    priceKind: 1
+    cost:
+      currencyId: coin
+      amount: 600
+    iapProductId: 
+    rewards:
+      items:
+      - kind: 1
+        id: booster_hammer
+        amount: 3
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: coins_500
+    section: coins
+    priceKind: 1
+    cost:
+      currencyId: gem
+      amount: 20
+    iapProductId: 
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 500
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: gems_small
+    section: gems
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: gems_small
+    rewards:
+      items:
+      - kind: 0
+        id: gem
+        amount: 100
+    purchaseLimit: 0
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: starter_pack
+    section: offers
+    priceKind: 2
+    cost:
+      currencyId: 
+      amount: 0
+    iapProductId: starter_pack
+    rewards:
+      items:
+      - kind: 0
+        id: coin
+        amount: 2000
+      - kind: 0
+        id: gem
+        amount: 50
+      - kind: 1
+        id: booster_hammer
+        amount: 3
+      - kind: 1
+        id: avatar_crown
+        amount: 1
+    purchaseLimit: 1
+    unlock:
+      kind: 1
+      levelNumber: 5
+      itemId: 

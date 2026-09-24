@@ -1,0 +1,40 @@
+{
+    "name": "NinetyNine.Editor",
+    "rootNamespace": "NinetyNine.Editor",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Reward",
+        "NinetyNine.Modules.Puzzle.Board",
+        "NinetyNine.Modules.Puzzle.Objective",
+        "NinetyNine.Modules.Puzzle.Level",
+        "NinetyNine.Modules.Unlock",
+        "NinetyNine.Features.PuzzleGameplay",
+        "NinetyNine.Features.Shop",
+        "NinetyNine.Features.Profile",
+        "NinetyNine.Features.DailyReward",
+        "NinetyNine.Game",
+        "NinetyNine.Features.Shop.View",
+        "NinetyNine.Features.DailyReward.View",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "NinetyNine.Modules.Progression",
+        "NinetyNine.Features.Home",
+        "NinetyNine.UI",
+        "NinetyNine.Features.PuzzleGameplay.View",
+        "NinetyNine.Features.Result.View",
+        "NinetyNine.Features.Profile.View",
+        "NinetyNine.Game.Flow"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

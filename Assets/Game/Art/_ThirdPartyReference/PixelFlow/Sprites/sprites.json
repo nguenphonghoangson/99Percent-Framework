@@ -1,0 +1,962 @@
+{
+ "Avatar Image 0": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 1": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 10": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 11": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 12": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 13": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 14": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 15": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 16": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 17": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 2": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 3": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 4": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 5": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 6": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 7": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 8": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Avatar Image 9": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   247
+  ]
+ },
+ "Button_Blue_Rounder": {
+  "border": [
+   64,
+   95,
+   65,
+   85
+  ],
+  "size": [
+   492,
+   224
+  ]
+ },
+ "Button_Blue_Rounder_S": {
+  "border": [
+   60,
+   65,
+   60,
+   60
+  ],
+  "size": [
+   329,
+   150
+  ]
+ },
+ "Button_Circle_Dark": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   151,
+   158
+  ]
+ },
+ "Button_Close_Popup": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   135,
+   135
+  ]
+ },
+ "Button_Dark_Small": {
+  "border": [
+   28,
+   28,
+   28,
+   28
+  ],
+  "size": [
+   225,
+   98
+  ]
+ },
+ "Button_Event_Circle_Blue": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   280,
+   287
+  ]
+ },
+ "Button_Green_Rounder": {
+  "border": [
+   65,
+   95,
+   65,
+   85
+  ],
+  "size": [
+   492,
+   224
+  ]
+ },
+ "Button_Green_Rounder_S": {
+  "border": [
+   60,
+   65,
+   60,
+   60
+  ],
+  "size": [
+   328,
+   150
+  ]
+ },
+ "Button_Play": {
+  "border": [
+   50,
+   60,
+   50,
+   50
+  ],
+  "size": [
+   539,
+   240
+  ]
+ },
+ "Check_Okay_Success_Icon": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   147,
+   145
+  ]
+ },
+ "Chest_1_S": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   493,
+   360
+  ]
+ },
+ "Chest_2_S": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   498,
+   367
+  ]
+ },
+ "Chest_3_S": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   499,
+   367
+  ]
+ },
+ "Chest_4_S": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   499,
+   366
+  ]
+ },
+ "Chest_5_S": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   498,
+   366
+  ]
+ },
+ "Chest_6_S": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   499,
+   366
+  ]
+ },
+ "Daily Bonus Main Button Image": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   174,
+   201
+  ]
+ },
+ "DailyBonusCalendarEntryBg": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   220,
+   256
+  ]
+ },
+ "DailyBonusCalendarEntryCollectedBg": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   219,
+   256
+  ]
+ },
+ "DailyBonusCalendarEntryTodayBg": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   220,
+   256
+  ]
+ },
+ "Frame_Avatar_Blue": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   309,
+   319
+  ]
+ },
+ "Frame_Avatar_Gold": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   309,
+   319
+  ]
+ },
+ "Frame_Basic_Rounded78": {
+  "border": [
+   38,
+   38,
+   38,
+   38
+  ],
+  "size": [
+   78,
+   78
+  ]
+ },
+ "Frame_Item_Card_Yellow": {
+  "border": [
+   95,
+   189,
+   95,
+   95
+  ],
+  "size": [
+   387,
+   466
+  ]
+ },
+ "Frame_Label_Rounded_Dark": {
+  "border": [
+   14,
+   0,
+   30,
+   0
+  ],
+  "size": [
+   197,
+   54
+  ]
+ },
+ "Gold_Single_Rotated_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   227,
+   239
+  ]
+ },
+ "Golds_0_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   244,
+   163
+  ]
+ },
+ "Golds_1_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   320,
+   251
+  ]
+ },
+ "Golds_2_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   340,
+   268
+  ]
+ },
+ "Golds_3_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   340,
+   300
+  ]
+ },
+ "Golds_4_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   331,
+   343
+  ]
+ },
+ "Golds_5_2x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   370,
+   301
+  ]
+ },
+ "HomeMenu_Bg": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   946,
+   2048
+  ]
+ },
+ "Home_Button_Bar": {
+  "border": [
+   0,
+   0,
+   0,
+   22
+  ],
+  "size": [
+   140,
+   126
+  ]
+ },
+ "Home_Button_Bar_Separator": {
+  "border": [
+   0,
+   14,
+   0,
+   12
+  ],
+  "size": [
+   6,
+   33
+  ]
+ },
+ "Home_Button_Selected": {
+  "border": [
+   50,
+   10,
+   50,
+   50
+  ],
+  "size": [
+   318,
+   246
+  ]
+ },
+ "Icon_Gold": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   120,
+   136
+  ]
+ },
+ "Icon_Gold_Gift": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   378,
+   320
+  ]
+ },
+ "Icon_Hammer_Block_Tight": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   185,
+   210
+  ]
+ },
+ "Icon_Heart": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   160,
+   132
+  ]
+ },
+ "Icon_Lock_White": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   148,
+   211
+  ]
+ },
+ "Icon_Rate_Star": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   193,
+   191
+  ]
+ },
+ "Icon_Rate_Star_Empty": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   193,
+   191
+  ]
+ },
+ "Icon_Settings": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   126,
+   141
+  ]
+ },
+ "Icon_Shop": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   129,
+   134
+  ]
+ },
+ "Icon_Star_3x": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   388,
+   383
+  ]
+ },
+ "Icon_Trophy": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   202,
+   183
+  ]
+ },
+ "Level_Current_Shiny": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   425,
+   437
+  ]
+ },
+ "Level_Normal": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   241,
+   272
+  ]
+ },
+ "Level_Tree_Column": {
+  "border": [
+   12,
+   12,
+   12,
+   12
+  ],
+  "size": [
+   41,
+   261
+  ]
+ },
+ "Level_Tree_Column_Yellow": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   79,
+   352
+  ]
+ },
+ "Notification_Red": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   85,
+   90
+  ]
+ },
+ "PictoIcon_Pencil": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   110,
+   110
+  ]
+ },
+ "Plus_Yellow": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   118,
+   114
+  ]
+ },
+ "Popup_Section_BlueDark_BorderRadiusSmall": {
+  "border": [
+   200,
+   100,
+   200,
+   100
+  ],
+  "size": [
+   473,
+   257
+  ]
+ },
+ "Popup_Section_Blue_Lilac": {
+  "border": [
+   95,
+   95,
+   95,
+   95
+  ],
+  "size": [
+   324,
+   324
+  ]
+ },
+ "Popup_With_Header_Blue": {
+  "border": [
+   100,
+   100,
+   100,
+   229
+  ],
+  "size": [
+   313,
+   373
+  ]
+ },
+ "Popup_With_Header_Red": {
+  "border": [
+   100,
+   100,
+   100,
+   229
+  ],
+  "size": [
+   313,
+   373
+  ]
+ },
+ "Resource_Frame": {
+  "border": [
+   28,
+   28,
+   28,
+   28
+  ],
+  "size": [
+   294,
+   103
+  ]
+ },
+ "Shop_Roof": {
+  "border": [
+   0,
+   125,
+   0,
+   0
+  ],
+  "size": [
+   1262,
+   317
+  ]
+ },
+ "Shop_Section_Title": {
+  "border": [
+   39,
+   0,
+   27,
+   0
+  ],
+  "size": [
+   1149,
+   93
+  ]
+ },
+ "Start_Pig_Turquoise": {
+  "border": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "size": [
+   246,
+   262
+  ]
+ }
+}

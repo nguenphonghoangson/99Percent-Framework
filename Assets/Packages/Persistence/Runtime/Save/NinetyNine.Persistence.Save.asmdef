@@ -1,0 +1,16 @@
+{
+    "name": "NinetyNine.Persistence.Save",
+    "rootNamespace": "NinetyNine.Persistence",
+    "references": [
+        "NinetyNine.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

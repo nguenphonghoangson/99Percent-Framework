@@ -1,0 +1,48 @@
+{
+    "name": "NinetyNine.Tests.EditMode",
+    "rootNamespace": "NinetyNine.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Inventory",
+        "NinetyNine.Modules.Reward",
+        "NinetyNine.Modules.Progression",
+        "NinetyNine.Modules.Profile",
+        "NinetyNine.Modules.Iap",
+        "NinetyNine.Modules.Puzzle",
+        "NinetyNine.Modules.Puzzle.Board",
+        "NinetyNine.Modules.Puzzle.Move",
+        "NinetyNine.Modules.Puzzle.Rule",
+        "NinetyNine.Modules.Puzzle.Objective",
+        "NinetyNine.Modules.Puzzle.Turn",
+        "NinetyNine.Modules.Puzzle.Level",
+        "NinetyNine.Modules.Unlock",
+        "NinetyNine.Features.PuzzleGameplay",
+        "NinetyNine.Features.Shop",
+        "NinetyNine.Features.Profile",
+        "NinetyNine.Features.DailyReward",
+        "NinetyNine.Persistence.Save",
+        "NinetyNine.Persistence.Save.Unity",
+        "NinetyNine.UI",
+        "UnityEngine.UI",
+        "NinetyNine.Features.Home",
+        "NinetyNine.Tests.Fixtures"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

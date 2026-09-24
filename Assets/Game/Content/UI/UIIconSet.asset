@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7982583b6b64483fbadb12dcfe274df, type: 3}
+  m_Name: UIIconSet
+  m_EditorClassIdentifier: 
+  entries:
+  - id: coin
+    sprite: {fileID: 21300000, guid: 0f9d7851c83a04e808daa5cb38e2e2d2, type: 3}
+  - id: gem
+    sprite: {fileID: 21300000, guid: 46a4ea455f7ac4a9e94f5006df218985, type: 3}
+  - id: life
+    sprite: {fileID: 21300000, guid: d5fbb1b731fd44bd295d949902e24887, type: 3}
+  - id: booster_hammer
+    sprite: {fileID: 21300000, guid: 70b3bd7310fa24184b366f65c666cd87, type: 3}
+  - id: hammer_x3
+    sprite: {fileID: 21300000, guid: 70b3bd7310fa24184b366f65c666cd87, type: 3}
+  - id: title_solver
+    sprite: {fileID: 21300000, guid: c31764792cbee4c6cb4311d43e8121cb, type: 3}
+  - id: title_master
+    sprite: {fileID: 21300000, guid: c31764792cbee4c6cb4311d43e8121cb, type: 3}
+  - id: free_gift
+    sprite: {fileID: 21300000, guid: b40cf6287adb6400c810675100e32927, type: 3}
+  - id: coins_500
+    sprite: {fileID: 21300000, guid: d788520f7c887430380e1ce92bc63f13, type: 3}
+  - id: starter_pack
+    sprite: {fileID: 21300000, guid: 394c9793cf2dd4490a786fa150204c52, type: 3}
+  - id: gold_pack_1
+    sprite: {fileID: 21300000, guid: 35e6aebb5bc2e47868cc04f7861a3468, type: 3}
+  - id: gold_pack_2
+    sprite: {fileID: 21300000, guid: d788520f7c887430380e1ce92bc63f13, type: 3}
+  - id: gold_pack_3
+    sprite: {fileID: 21300000, guid: fafa0719502f84272a5b713f356f1bf5, type: 3}
+  - id: gold_pack_4
+    sprite: {fileID: 21300000, guid: cc9d58ea2ee244c0795f339e6c7b6ba4, type: 3}
+  - id: gold_pack_5
+    sprite: {fileID: 21300000, guid: 7eca563c868c84a8fa75618d7243f9cb, type: 3}
+  - id: gold_pack_6
+    sprite: {fileID: 21300000, guid: f8ab583cf6f334420a3757b1a41c139e, type: 3}
+  - id: avatar_01
+    sprite: {fileID: 21300000, guid: cd1b4fb260f5a43529729f6c3f83e6f9, type: 3}
+  - id: avatar_02
+    sprite: {fileID: 21300000, guid: d8bb373496f284563bb45795e77efc29, type: 3}
+  - id: avatar_03
+    sprite: {fileID: 21300000, guid: 579c51627d2a5412eb19c109e66048bb, type: 3}
+  - id: avatar_04
+    sprite: {fileID: 21300000, guid: b0807499068d54bbdb6581c094c1e761, type: 3}
+  - id: avatar_05
+    sprite: {fileID: 21300000, guid: 9b11795a7632646f3b74d845bbcb796e, type: 3}
+  - id: avatar_06
+    sprite: {fileID: 21300000, guid: 8c9832e2b8d0942da83c580d5513f1b7, type: 3}
+  - id: avatar_07
+    sprite: {fileID: 21300000, guid: c41458e0491eb47c69ab9de1c3487db6, type: 3}
+  - id: avatar_08
+    sprite: {fileID: 21300000, guid: 304673b0e8f6d4b46803c1a199be0749, type: 3}
+  - id: avatar_crown
+    sprite: {fileID: 21300000, guid: 304673b0e8f6d4b46803c1a199be0749, type: 3}

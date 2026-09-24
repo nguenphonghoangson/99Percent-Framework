@@ -1,0 +1,17 @@
+{
+    "name": "NinetyNine.Modules.Profile",
+    "rootNamespace": "NinetyNine.Modules.Profile",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Persistence.Save"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

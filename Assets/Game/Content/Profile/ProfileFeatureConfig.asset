@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886520f4231f54279b9c8e1bf032d600, type: 3}
+  m_Name: ProfileFeatureConfig
+  m_EditorClassIdentifier: 
+  avatars:
+  - id: avatar_01
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: avatar_02
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: avatar_03
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: avatar_04
+    unlock:
+      kind: 1
+      levelNumber: 10
+      itemId: 
+  - id: avatar_05
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: avatar_06
+    unlock:
+      kind: 1
+      levelNumber: 15
+      itemId: 
+  - id: avatar_07
+    unlock:
+      kind: 1
+      levelNumber: 25
+      itemId: 
+  - id: avatar_crown
+    unlock:
+      kind: 2
+      levelNumber: 0
+      itemId: avatar_crown
+  - id: avatar_08
+    unlock:
+      kind: 1
+      levelNumber: 30
+      itemId: 
+  titles:
+  - id: title_rookie
+    unlock:
+      kind: 0
+      levelNumber: 0
+      itemId: 
+  - id: title_solver
+    unlock:
+      kind: 1
+      levelNumber: 20
+      itemId: 
+  - id: title_master
+    unlock:
+      kind: 1
+      levelNumber: 50
+      itemId: 
+  freeRenames: 1
+  renameCost:
+    currencyId: gem
+    amount: 50

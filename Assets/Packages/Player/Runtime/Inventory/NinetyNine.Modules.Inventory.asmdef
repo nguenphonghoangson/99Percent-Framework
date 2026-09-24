@@ -1,0 +1,17 @@
+{
+    "name": "NinetyNine.Modules.Inventory",
+    "rootNamespace": "NinetyNine.Modules.Inventory",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Persistence.Save"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

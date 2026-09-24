@@ -1,0 +1,14 @@
+{
+    "name": "NinetyNine.Game.Flow",
+    "rootNamespace": "NinetyNine.Game.Flow",
+    "references": ["NinetyNine.Core", "NinetyNine.UI"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

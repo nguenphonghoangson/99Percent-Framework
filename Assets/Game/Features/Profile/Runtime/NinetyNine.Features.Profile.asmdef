@@ -1,0 +1,22 @@
+{
+    "name": "NinetyNine.Features.Profile",
+    "rootNamespace": "NinetyNine.Features.Profile",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Unlock",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Inventory",
+        "NinetyNine.Modules.Progression",
+        "NinetyNine.Modules.Profile",
+        "NinetyNine.Persistence.Save"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

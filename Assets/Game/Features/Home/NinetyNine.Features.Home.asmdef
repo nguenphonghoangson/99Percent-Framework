@@ -1,0 +1,28 @@
+{
+    "name": "NinetyNine.Features.Home",
+    "rootNamespace": "NinetyNine.Features.Home",
+    "references": [
+        "NinetyNine.Core",
+        "NinetyNine.Modules.Economy",
+        "NinetyNine.Modules.Progression",
+        "NinetyNine.Features.Shop",
+        "NinetyNine.Features.DailyReward",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "NinetyNine.UI",
+        "NinetyNine.Features.PuzzleGameplay",
+        "NinetyNine.Modules.Profile",
+        "NinetyNine.Features.Profile",
+        "NinetyNine.Modules.Unlock",
+        "NinetyNine.Game.Flow"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

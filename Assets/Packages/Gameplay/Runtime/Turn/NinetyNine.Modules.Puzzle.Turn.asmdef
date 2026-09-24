@@ -1,0 +1,14 @@
+{
+    "name": "NinetyNine.Modules.Puzzle.Turn",
+    "rootNamespace": "NinetyNine.Modules.Puzzle.Turns",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}
