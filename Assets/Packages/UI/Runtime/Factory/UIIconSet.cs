@@ -41,9 +41,11 @@ namespace NinetyNine.UI
         {
             var sprite = set ? set.Find(ids) : null;
             var key = ids.Length > 0 ? ids[0] : string.Empty;
-            image.sprite = sprite ? sprite : image.sprite;
-            image.color = sprite ? Color.white : PlaceholderColor(key);
-            image.preserveAspect = sprite;
+            if (image != null) {
+                image.sprite = sprite ? sprite : image.sprite;
+                image.color = sprite ? Color.white : PlaceholderColor(key);
+                image.preserveAspect = sprite;
+            }
             if (fallback)
             {
                 fallback.gameObject.SetActive(!sprite);

@@ -25,6 +25,9 @@ MonoBehaviour:
   - key: profile
     prefab: {fileID: 4898652867416588821, guid: 2cbdfadd18f774829a6e32af4a0fcde7, type: 3}
     keepInstance: 1
+  - key: map
+    prefab: {fileID: 5360001933021112195, guid: 173b08ef4eb774deaa037707dc297b49, type: 3}
+    keepInstance: 1
   referenceResolution: {x: 1080, y: 1920}
   screenMatchMode: 1
   matchWidthOrHeight: 0.5

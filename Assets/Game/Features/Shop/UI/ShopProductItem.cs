@@ -34,11 +34,11 @@ namespace NinetyNine.Features.Shop.UI
 
             var single = product.Rewards is { items: { Count: 1 } } ? product.Rewards.items[0] : (RewardItem?)null;
             UIIconSet.Show(icons, icon, iconFallback, product.Id, single?.id ?? product.Id);
-            amountText.text = single.HasValue ? single.Value.amount.ToString("N0", CultureInfo.InvariantCulture) : Prettify(product.Id);
+            if (amountText) amountText.text = single.HasValue ? single.Value.amount.ToString("N0", CultureInfo.InvariantCulture) : Prettify(product.Id);
 
-            priceText.text = product.PriceLabel;
-            buyButton.interactable = product.Availability == ProductAvailability.Available;
-            statusText.text = product.Availability switch
+            if (priceText) priceText.text = product.PriceLabel;
+            if (buyButton) buyButton.interactable = product.Availability == ProductAvailability.Available;
+            if (statusText) statusText.text = product.Availability switch
             {
                 ProductAvailability.SoldOut => "Sold out",
                 ProductAvailability.Locked => "Locked",

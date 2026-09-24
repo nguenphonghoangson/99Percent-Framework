@@ -35,11 +35,13 @@ namespace NinetyNine.Features.Profile.UI
 
         private void Awake()
         {
-            optionTemplate.gameObject.SetActive(false);
-            nameInput.characterLimit = ProfileRules.MaxNameLength;
-            nameInput.onValueChanged.AddListener(_ => _nameEdited = true);
-            saveButton.onClick.AddListener(OnSave);
-            closeButton.onClick.AddListener(() => Close());
+            if (optionTemplate) optionTemplate.gameObject.SetActive(false);
+            if (nameInput) {
+                nameInput.characterLimit = ProfileRules.MaxNameLength;
+                nameInput.onValueChanged.AddListener(_ => _nameEdited = true);
+            }
+            if (saveButton) saveButton.onClick.AddListener(OnSave);
+            if (closeButton) closeButton.onClick.AddListener(() => Close());
         }
 
         private void OnEnable()
@@ -72,21 +74,23 @@ namespace NinetyNine.Features.Profile.UI
                     if (avatar.IsSelected)
                         _pendingAvatar = avatar.Id;
 
-            if (!_nameEdited) nameInput.SetTextWithoutNotify(displayName);
-            hintText.text = nextRenameCost.IsFree ? "First rename is free" : $"Rename costs {nextRenameCost}";
+            if (!_nameEdited && nameInput != null) nameInput.SetTextWithoutNotify(displayName);
+            if (hintText != null) hintText.text = nextRenameCost.IsFree ? "First rename is free" : $"Rename costs {nextRenameCost}";
             RenderAvatars();
         }
 
-        public void ShowError(string errorCode) => errorText.text = errorCode switch
-        {
-            ProfileErrors.NameTooShort => $"Name needs at least {ProfileRules.MinNameLength} characters.",
-            ProfileErrors.NameTooLong => $"Name can have at most {ProfileRules.MaxNameLength} characters.",
-            ProfileErrors.NameInvalidCharacters => "Letters, numbers, spaces and _ only.",
-            ProfileErrors.NameRejected => "That name is not allowed.",
-            ProfileFeatureErrors.OptionLocked => "That avatar is still locked.",
-            EconomyErrors.InsufficientFunds => "Not enough currency to rename.",
-            _ => $"Could not save ({errorCode})."
-        };
+        public void ShowError(string errorCode) {
+            if (errorText != null) errorText.text = errorCode switch
+            {
+                ProfileErrors.NameTooShort => $"Name needs at least {ProfileRules.MinNameLength} characters.",
+                ProfileErrors.NameTooLong => $"Name can have at most {ProfileRules.MaxNameLength} characters.",
+                ProfileErrors.NameInvalidCharacters => "Letters, numbers, spaces and _ only.",
+                ProfileErrors.NameRejected => "That name is not allowed.",
+                ProfileFeatureErrors.OptionLocked => "That avatar is still locked.",
+                EconomyErrors.InsufficientFunds => "Not enough currency to rename.",
+                _ => $"Could not save ({errorCode})."
+            };
+        }
 
         private void RenderAvatars()
         {
@@ -127,8 +131,9 @@ namespace NinetyNine.Features.Profile.UI
 
         private void OnSave()
         {
-            errorText.text = string.Empty;
-            if (_presenter != null && _presenter.Save(nameInput.text, _pendingAvatar)) Close();
+            if (errorText != null) errorText.text = string.Empty;
+            string newName = nameInput != null ? nameInput.text : string.Empty;
+            if (_presenter != null && _presenter.Save(newName, _pendingAvatar)) Close();
         }
     }
 }

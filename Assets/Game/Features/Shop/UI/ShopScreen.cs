@@ -24,6 +24,7 @@ namespace NinetyNine.Features.Shop.UI
         [SerializeField] private GameObject busyOverlay;
         [SerializeField] private TMP_Text messageText;
         [SerializeField] private UIIconSet icons;
+        [SerializeField] private UnityEngine.UI.Button closeButton;
 
         private readonly List<Section> _sections = new();
         private ShopPresenter _presenter;
@@ -31,8 +32,9 @@ namespace NinetyNine.Features.Shop.UI
 
         private void Awake()
         {
-            sectionHeaderTemplate.SetActive(false);
-            sectionGridTemplate.gameObject.SetActive(false);
+            if (sectionHeaderTemplate) sectionHeaderTemplate.SetActive(false);
+            if (sectionGridTemplate) sectionGridTemplate.gameObject.SetActive(false);
+            if (closeButton) closeButton.onClick.AddListener(() => Navigator.PopScreen());
         }
 
         private void OnEnable()
@@ -44,8 +46,8 @@ namespace NinetyNine.Features.Shop.UI
                 return;
             }
 
-            messageText.text = string.Empty;
-            busyOverlay.SetActive(false);
+            if (messageText) messageText.text = string.Empty;
+            if (busyOverlay) busyOverlay.SetActive(false);
             _presenter = new ShopPresenter(_shop, services.Require<IEventBus>(), this);
         }
 
@@ -57,17 +59,23 @@ namespace NinetyNine.Features.Shop.UI
 
         public void Render(IReadOnlyList<ShopProductView> products)
         {
-            lockedLabel.SetActive(!_shop.IsUnlocked);
-            listRoot.SetActive(_shop.IsUnlocked);
+            if (lockedLabel) lockedLabel.SetActive(!_shop.IsUnlocked);
+            if (listRoot) listRoot.SetActive(_shop.IsUnlocked);
 
             foreach (var section in _sections) section.Used = 0;
             foreach (var product in products) SectionFor(product.Section).Add(product, itemPrefab, icons, OnBuy);
             foreach (var section in _sections) section.Trim();
         }
 
-        public void SetBusy(bool busy) => busyOverlay.SetActive(busy);
+        public void SetBusy(bool busy)
+        {
+            if (busyOverlay) busyOverlay.SetActive(busy);
+        }
 
-        public void ShowPurchaseResult(string productId, Result result) => messageText.text = Describe(result);
+        public void ShowPurchaseResult(string productId, Result result)
+        {
+            if (messageText) messageText.text = Describe(result);
+        }
 
         private Section SectionFor(string id)
         {

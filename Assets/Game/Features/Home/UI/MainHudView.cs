@@ -35,6 +35,10 @@ namespace NinetyNine.Features.Home
         [SerializeField] private Button addCoinsButton;
         [SerializeField] private Button settingsButton;
 
+        [Header("Chrome Structure")]
+        [SerializeField] private GameObject topBar;
+        [SerializeField] private GameObject bottomBar;
+
         [Header("Bottom nav")]
         [SerializeField] private Button shopTab;
         [SerializeField] private Button startTab;
@@ -61,17 +65,26 @@ namespace NinetyNine.Features.Home
             services.TryGet<IUIFactory>(out var factory);
             bool Has(string key) => factory != null && factory.Has(key);
 
-            avatarButton.interactable = Has(ProfileFeature.Id) && services.Has<IProfileFeatureService>();
-            avatarButton.onClick.AddListener(() => Forget(_navigator.ShowPopup(ProfileFeature.Id)));
-            settingsButton.interactable = Has(SettingsKey);
-            settingsButton.onClick.AddListener(() => Forget(_navigator.ShowPopup(SettingsKey)));
+            if (avatarButton != null) {
+                avatarButton.interactable = Has(ProfileFeature.Id) && services.Has<IProfileFeatureService>();
+                avatarButton.onClick.AddListener(() => Forget(_navigator.ShowPopup(ProfileFeature.Id)));
+            }
+            if (settingsButton != null) {
+                settingsButton.interactable = Has(SettingsKey);
+                settingsButton.onClick.AddListener(() => Forget(_navigator.ShowPopup(SettingsKey)));
+            }
 
-            shopTab.interactable = Has(ShopFeature.Id) && services.Has<IShopService>();
-            trophyTab.interactable = Has(LeaderboardKey);
-            shopTab.onClick.AddListener(() => OpenTab(ShopFeature.Id));
-            addCoinsButton.onClick.AddListener(() => OpenTab(ShopFeature.Id));
-            startTab.onClick.AddListener(() => OpenTab(HomeScreenView.ScreenId));
-            trophyTab.onClick.AddListener(() => OpenTab(LeaderboardKey));
+            if (shopTab != null) {
+                shopTab.interactable = Has(ShopFeature.Id) && services.Has<IShopService>();
+                shopTab.onClick.AddListener(() => OpenTab(ShopFeature.Id));
+            }
+            if (trophyTab != null) {
+                trophyTab.interactable = Has(LeaderboardKey);
+                trophyTab.onClick.AddListener(() => OpenTab(LeaderboardKey));
+            }
+            
+            if (addCoinsButton != null) addCoinsButton.onClick.AddListener(() => OpenTab(ShopFeature.Id));
+            if (startTab != null) startTab.onClick.AddListener(() => OpenTab(HomeScreenView.ScreenId));
 
             var events = services.Require<IEventBus>();
             _subscriptions.Add(events.Subscribe<CurrencyChangedEvent>(_ => RefreshCurrencies()));
@@ -105,24 +118,29 @@ namespace NinetyNine.Features.Home
         private void RefreshTabs()
         {
             var current = _navigator.CurrentScreen ? _navigator.CurrentScreen.Key : null;
-            gameObject.SetActive(Array.IndexOf(TabScreens, current) >= 0);
-            shopTabSelected.SetActive(current == ShopFeature.Id);
-            startTabSelected.SetActive(current == HomeScreenView.ScreenId);
-            trophyTabSelected.SetActive(current == LeaderboardKey);
+            bool isTabScreen = Array.IndexOf(TabScreens, current) >= 0;
+            
+            if (bottomBar != null) bottomBar.SetActive(isTabScreen);
+            // Optionally, if topBar needs to be hidden in some screens, you can add logic here.
+            // For now, topBar remains active as long as the HUD is alive.
+            
+            if (shopTabSelected != null) shopTabSelected.SetActive(current == ShopFeature.Id);
+            if (startTabSelected != null) startTabSelected.SetActive(current == HomeScreenView.ScreenId);
+            if (trophyTabSelected != null) trophyTabSelected.SetActive(current == LeaderboardKey);
         }
 
         private void RefreshCurrencies()
         {
-            coinText.text = _economy.GetBalance(CoinCurrency).ToString("N0");
+            if (coinText != null) coinText.text = _economy.GetBalance(CoinCurrency).ToString("N0");
 
             var hasLives = _economy.IsKnown(LivesCurrency);
-            livesGroup.SetActive(hasLives);
+            if (livesGroup != null) livesGroup.SetActive(hasLives);
             if (!hasLives) return;
 
             var lives = _economy.GetBalance(LivesCurrency);
             var cap = _economy.GetCap(LivesCurrency);
-            livesText.text = lives.ToString();
-            livesStatusText.text = cap > 0 && lives >= cap ? "MAX" : string.Empty;
+            if (livesText != null) livesText.text = lives.ToString();
+            if (livesStatusText != null) livesStatusText.text = cap > 0 && lives >= cap ? "MAX" : string.Empty;
         }
 
         private void RefreshAvatar()
